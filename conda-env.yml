@@ -1,0 +1,10 @@
+name: qrsa
+channels:
+  - defaults
+dependencies:
+  - argh=0.26.2=py37_0
+  - pip=20.3.3=py37hecd8cb5_0
+  - python=3.7.9=h26836e1_0
+  - pip:
+    - qrcode==6.1
+    - rsa==4.7
